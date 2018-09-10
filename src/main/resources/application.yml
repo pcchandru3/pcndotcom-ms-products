@@ -1,0 +1,25 @@
+spring:
+  application:
+      name : pcndotcom-ms-products
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: local 
+      
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+
+
+server:
+  port: 8084
+  
+  
+  
+ 
